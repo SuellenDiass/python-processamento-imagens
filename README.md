@@ -1,3 +1,5 @@
+ <p> <h1 align="center">Criando Pacote de Imagens Python</h1></p>
+
 Neste projeto, aprendemos a criar um pacote de processamento de imagens em Python e disponibilizá-lo no repositório Pypi, facilitando sua reutilização e compartilhamento com outras pessoas. A especialista também demonstrou um exemplo de pacote para processamento de imagens, fornecendo informações sobre a estrutura do projeto e a importância de cada arquivo. 
 
 1. **Estrutura do Projeto:**
