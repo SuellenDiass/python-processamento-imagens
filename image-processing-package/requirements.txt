@@ -1,0 +1,40 @@
+# uma lista de dependências em formato de arquivo de requisitos para um projeto Python,usado para especificar as bibliotecas (pacotes) e suas versões que são necessárias para executar ou desenvolver um projeto Python.
+
+bleach==3.1.5
+certifi==2020.6.20
+chardet==3.0.4
+colorama==0.4.3
+docutils==0.16
+idna==2.10
+keyring==21.3.1
+packaging==20.4
+pkginfo==1.5.0.1
+Pygments==2.6.1
+pyparsing==2.4.7
+pywin32-ctypes==0.2.0
+readme-renderer==26.0
+requests==2.24.0
+requests-toolbelt==0.9.1
+rfc3986==1.4.0
+six==1.15.0
+tqdm==4.48.2
+twine==3.2.0
+urllib3==1.25.10
+webencodings==0.5.1
+
+
+
+# Aqui está uma explicação da estrutura da lista de dependencias:
+
+#- Cada linha representa uma dependência (biblioteca) que seu projeto precisa.
+#- O formato geral é `nome_do_pacote==versão`, onde:
+ # - `nome_do_pacote` é o nome da biblioteca ou pacote que você deseja instalar.
+  #- `versão` é a versão específica da biblioteca que você deseja usar. A versão é opcional, mas é uma prática recomendada para garantir que você esteja usando uma versão compatível da biblioteca.
+
+#- Por exemplo, a primeira linha `bleach==3.1.5` indica que você deseja usar a biblioteca "bleach" na versão 3.1.5 em seu projeto.
+
+#- Esse arquivo de requisitos pode ser usado com ferramentas como `pip` para instalar automaticamente todas as dependências listadas em seu ambiente de desenvolvimento. Isso garante que todas as bibliotecas necessárias estejam disponíveis e na versão correta para que seu projeto funcione conforme o esperado.
+
+#- Ao executar `pip install -r requirements.txt` (assumindo que o arquivo se chama "requirements.txt"), o `pip` lerá o arquivo e instalará todas as bibliotecas listadas juntamente com suas versões especificadas.
+
+#Este tipo de arquivo é útil para gerenciar as dependências de um projeto Python, especialmente quando você compartilha seu código com outras pessoas ou implanta em diferentes ambientes. Ele ajuda a garantir que todas as partes envolvidas tenham as mesmas versões das bibliotecas, reduzindo assim problemas de compatibilidade.
